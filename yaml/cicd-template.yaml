@@ -340,7 +340,7 @@ objects:
                   --param=SKIP_TLS_VERIFY=true \
                   --param=DATABASE_VERSION=10
             else
-              oc new-app -f https://raw.githubusercontent.com/kwkoo/openshift-cd-demo/ocp-4.2//gogs-persistent-template.yaml \
+              oc new-app -f https://raw.githubusercontent.com/kwkoo/openshift-cd-demo/ocp-4.2/yaml/gogs-persistent-template.yaml \
                   --param=GOGS_VERSION=0.11.34 \
                   --param=HOSTNAME=$GOGS_HOSTNAME \
                   --param=SKIP_TLS_VERIFY=true \
