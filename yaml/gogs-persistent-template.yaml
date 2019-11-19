@@ -142,6 +142,8 @@ objects:
     name: ${APPLICATION_NAME}
   spec:
     host: ${HOSTNAME}
+    port:
+      targetPort: 3000-tcp
     to:
       name: ${APPLICATION_NAME}
 - kind: Route
